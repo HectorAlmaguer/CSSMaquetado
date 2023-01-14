@@ -1,0 +1,47 @@
+nav{
+    padding:10px;
+    background-color: greenyellow;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.contain div{
+    height: 300px;
+    background-color: peru;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    justify-content:center;
+    align-items: center;
+}
+.main{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: red;
+}
+footer{
+    padding:10px;
+    background-color: violet;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+#title{
+    background: linear-gradient(70deg, grey, white);
+    box-shadow: 10px 5px 5px grey;
+}

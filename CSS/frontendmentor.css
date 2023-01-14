@@ -1,0 +1,57 @@
+/*selector por tagname*/
+body{
+    background-image: url("../media/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 100%;
+    border-radius: 5rem 5rem 0rem 0rem;
+}
+button{
+    background-color: rgb(8, 38, 207);
+    color: aliceblue;
+    font-size: larger;
+    border-radius: 5rem;
+    width: 15rem;
+    height: 45px;
+}
+/*selector por clase*/
+.detail p{
+    margin: 1rem;
+}
+.card{
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 5rem;
+    width: 50%;
+    box-shadow: 10px 5px 5px grey;
+}
+.cost{
+    color: grey;
+}
+/*selector por id*/
+#Icono{
+    width: 70px;
+}
+#payment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #e7e1e1;
+    margin: 2rem;
+    height: 5rem;
+}
+#confirm h2{
+    color: gray;
+    font-size:medium;
+}
+
+button:hover{
+    cursor: pointer;
+}
